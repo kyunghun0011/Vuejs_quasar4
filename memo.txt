@@ -1,0 +1,14 @@
+
+참고 링크
+
+https://bezkoder.com/jwt-vue-vuex-authentication/
+
+
+#router 쿼리 파라미터 또는 파람스 넘기는 방법
+    // movePostEditcmp() {
+    //   this.$router.push({ 
+    //       name : 'postEdit', 
+    //       query : { Key1 : '1234' } ,
+    //       params : this.postData
+    //   })
+    // },
