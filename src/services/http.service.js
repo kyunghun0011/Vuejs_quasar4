@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    // baseURL : 'http://localhost:8080/' // backend server
-    baseURL : 'https://jsonplaceholder.typicode.com/' // backend server
+    baseURL : 'http://ec2-3-34-34-59.ap-northeast-2.compute.amazonaws.com:8080/'
+    
     // headers: { 'X-Custom-Header': 'foobar' },
     // timeout: 1000,
 });
@@ -10,6 +10,8 @@ const instance = axios.create({
 export default instance;
 
 // API 테스트 서버 리스트
+// http://localhost:8080/ // backend server Spring Boot
+    
 // https://jsonplaceholder.typicode.com/
 // https://reqres.in/
 

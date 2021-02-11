@@ -15,7 +15,7 @@
           <q-input type="text" label="password" name="password" v-model="user.password"/>
           <q-input type="text" label="username" name="username" v-model="user.username"/>
         </q-card-section>
-
+=
         <q-separator />
 
         <q-card-actions class="q-pa-md justify-center">
@@ -42,11 +42,6 @@ export default {
     loggedIn() {
       return this.$store.state.auth.status.loggedIn;
     }
-  },
-  mounted() {
-    // if (this.loggedIn) {
-    //   this.$router.push('/');
-    // }
   },
   methods : {
     ...mapActions( ['register' ]),
